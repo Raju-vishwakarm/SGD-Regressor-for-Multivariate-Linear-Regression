@@ -1,4 +1,3 @@
-<img width="487" height="25" alt="Screenshot 2025-09-26 144125" src="https://github.com/user-attachments/assets/cb2e5c9c-12a2-412f-9f48-3c708eb6a2d9" /># SGD-Regressor-for-Multivariate-Linear-Regression
 
 ## AIM:
 To write a program to predict the price of the house and number of occupants in the house with SGD regressor.
@@ -8,11 +7,7 @@ To write a program to predict the price of the house and number of occupants in 
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
-
+Load California housing data, select features and targets, and split into training and testing sets. 2.Scale both X (features) and Y (targets) using StandardScaler. 3.Use SGDRegressor wrapped in MultiOutputRegressor to train on the scaled training data. 4.Predict on test data, inverse transform the results, and calculate the mean squared error.
 ## Program:
 ```
 import numpy as np
